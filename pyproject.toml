@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "corprep"
+version = "0.1.0"
+description = ""
+authors = ["John Sukup <john@expectedx.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = {extras = ["llms"], version = "^0.0.259"}
+weaviate-client = "^3.22.1"
+newscatcherapi = "^0.7.2"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
